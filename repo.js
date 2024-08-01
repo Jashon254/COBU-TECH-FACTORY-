@@ -3,8 +3,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const { zokou } = require("../framework/zokou");
 
 zokou({ nomCom: "repo", catégorie:"Général", reaction: "✨", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
-  const githubRepo = 'https://api.github.com/repos/Cod3Uchiha/TKM-bot';
-  const img = 'https://telegra.ph/file/e07a3d933fb4cad0b3791.jpg';
+  const githubRepo = 'https://github.com/calvineonyango/COBU-TECH-FACTORY-';
+  const img = 'https://telegra.ph/file/1e7b0ce4c3413b4c697a0.jpg';
 
   try {
     const response = await fetch(githubRepo);
@@ -21,13 +21,13 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "✨", nomFichier: __f
       const releaseDate = new Date(data.created_at).toLocaleDateString('en-GB');
       const lastUpdateDate = new Date(data.updated_at).toLocaleDateString('en-GB');
 
-      const gitdata = `┏❏ ⌜ 𝐓𝐊𝐌-𝐁𝐎𝐓 𝐑𝐞𝐩𝐨 ⌟ ❐
-┃🗼 *REPOSITORY:* ${data.html_url}
+      const gitdata = `┏❏ ⌜ COBU-TECH-MD ⌟ ❐
+┃🍯 *REPOSITORY:* ${data.html_url}
 ┃✨ *STARS:* ${repoInfo.stars}
-┃🧧 *FORKS:* ${repoInfo.forks}
+┃🍴 *FORKS:* ${repoInfo.forks}
 ┃📅 *RELEASE DATE:* ${releaseDate}
-┃🕐 *UPDATE ON:* ${repoInfo.lastUpdate}
-┃👨‍💻 *OWNER* :Cod3Uchiha
+┃⌚ *UPDATE ON:* ${repoInfo.lastUpdate}
+┃😎 *OWNER* :Calvine Onyango 
 ┗❏`;
 
       await zk.sendMessage(dest, { image: { url: img }, caption: gitdata });
