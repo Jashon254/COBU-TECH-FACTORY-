@@ -72,13 +72,9 @@
 <p align="center"> 👇👇👇
 
   
-  <p align="center"><a href="https://github.com/cobutech/MORTAL-KOMBAT-MD">
- <img src="https://img.shields.io/badge/MØRTÄL%20KØMBÄT%20MD%20-darkgreen?style=for-the-badge&l" width="180" height="27"/></a></p>
+  <p align="center"><a href="https://github.com/cobutech/THUNDER-BOLT-MD-V.1">
+ <img src="https://img.shields.io/badge/THÜNDËR%20BØLT%20MD%20-darkgreen?style=for-the-badge&l" width="180" height="27"/></a></p>
 
-
-
-
-      
 ***
   
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=I'M+THÜNDËR+BØLT-MD;CRËÄTËD+BY+ÇÆLVÏÑË+ØBÜ-TECH" alt="Typing SVG" /></a>
@@ -87,9 +83,17 @@
     <img alt="THÜNDËR BØLT-MD" width="500" height="400" src="https://telegra.ph/file/4105bcf6921af34dd8b7c.jpg">
 
 ***
+ # <p align="center"> *DËATHSTRØKË*
 
+  * *This is a normal bot but don't joke with it 😂 😂 😂 😂*
+  * *It might be friendly but overloading it can make you loose your account*
+  * *This bot response to your commands in 0 seconds and its usually on 25/7
+  *   
+*  *To deploy this bot tap the green baton*
+<p align="center"> 👇👇👇
 
-
+  <p align="center"><a href="https://github.com/cobutech/DEATH-STROKE-MD">
+ <img src="https://img.shields.io/badge/DEATHSTROKE%20MD%20-darkred?style=for-the-badge&l" width="180" height="27"/></a></p>
 
 
 
@@ -109,35 +113,29 @@
 
 ***
 
+ # <p align="center"> *SHË WØLF-MD*
+
+  * *This is a normal bot but don't joke with it 😂 😂 😂 😂*
+  * *It might be friendly but overloading it can make you loose your account*
+  * *This bot response to your commands in 0 seconds and its usually on 25/7
+  *   
+*  *To deploy this bot tap the green baton*
+<p align="center"> 👇👇👇
 
 
+  <p align="center"><a href="https://github.com/cobutech/SHE-WOLF-MD">
+ <img src="https://img.shields.io/badge/SHE%20WOLF%20MD%20-purple?style=for-the-badge&l" width="180" height="27"/></a></p>
 
-
-
-
-
-
-
-
-
-
-    
 ***
   
   </p>
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=DAA520&center=true&width=910&height=100&lines=I'AM+SHË+WØLF+MD+;CRËÄTË+BY+ÇÄLVÏNË+ØBÜ-TËCH;MULTI+DEVICE+TËLËGRÄM+BOT" alt="Typing SVG" /></a>
   
- 
 ****
 </p>
     <img alt="X-FORCE-MD" width="500" height="400" src="https://telegra.ph/file/4ba98bf49301e730286d8.jpg">
-    
-
-
-
-  
-  
+ 
 *DËVËLØPËR*
 
  * *This bot was developed by*
