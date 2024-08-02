@@ -32,7 +32,7 @@ zokou(
 
 // CrÃ©er une date et une heure en GMT
 const temps = moment().format('HH:mm:ss');
-const date = moment().format('DD/MM/YYYY');
+const date = moment().format('YYYY/DD/MM');
 
     const alivemsg = `
 *Owner* : ${s.OWNER_NAME}
@@ -60,8 +60,8 @@ else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
         zk.sendMessage(dest, { image: { url: lien }, caption: alivemsg }, { quoted: ms });
     }
     catch (e) {
-        console.log("ðŸ¥µðŸ¥µ Menu erreur " + e);
-        repondre("ðŸ¥µðŸ¥µ Menu erreur " + e);
+        console.log(" Menu erreur " + e);
+        repondre(" Menu erreur " + e);
     }
 } 
 else {
@@ -71,14 +71,14 @@ else {
 }
 
     } else {
-        if(!superUser) { repondre("there is no alive for this bot") ; return};
+        if(!superUser) { repondre("Hey dude why are you disturbing me on my sleep 🌝") ; return};
 
-      await   repondre("You have not yet saved your alive, to do this;  enter after alive your message and your image or video link in this context: .alive message;lien");
-         repondre("don't do fake thinks :)")
+      await   repondre("Thank for reaching out to Cobutech, this is the home of technology and feel free to use our tech equipment to satisfy your wants 🌚 we love you so much;https://telegra.ph/file/6ee45f8074de6d5f2c5d9.jpg");
+         repondre("check out our YouTube channel for more and support our team https://www.youtube.com/@calvineobumdtech :)")
      }
  } else {
 
-    if(!superUser) { repondre ("Only the owner can  modify the alive") ; return};
+    if(!superUser) { repondre ("don't try to change this for your own goodness 😉😉😉,we love you so t❤️❤️") ; return};
 
   
     const texte = arg.join(' ').split(';')[0];
@@ -88,7 +88,7 @@ else {
     
 await addOrUpdateDataInAlive(texte , tlien)
 
-repondre(' _TKM-bot_ is running on server 99. ')
+repondre('This bot i alive 24/7 and the responds immediately ')
 
 }
     });
