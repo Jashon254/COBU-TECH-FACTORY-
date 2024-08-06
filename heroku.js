@@ -5,13 +5,13 @@ const s = require('../set')
 zokou(
     {
         nomCom : "setvar",
-        categorie : "TKM-bot vars"
+        categorie : "DEATH-STROKE-MD vars"
     }, async (dest , zk , commandeOptions) =>{
 
        const {ms,repondre,superUser , arg} = commandeOptions ;
        
-       if(!superUser){repondre('only Mods can use this commande');return};
-       if(!arg[0] || !(arg.join('').split('='))) {repondre('Bad format ; Exemple of using :\nSetvar OWNER_NAME=Beltah');return};
+       if(!superUser){repondre('only the Cobu-tech can use this commande dude');return};
+       if(!arg[0] || !(arg.join('').split('='))) {repondre('Bad format ; Exemple of using :\nSetvar OWNER_NAME=COBU-TECH');return};
      
     const text = arg.join(" ")
      const Heroku = require("heroku-client");
@@ -33,12 +33,12 @@ zokou(
 zokou(
     {
         nomCom : "getallvar",
-        categorie : "TKM-bot vars"
+        categorie : "DEATH-STROKE-MD vars"
     }, async (dest , zk , commandeOptions) =>{
 
        const {ms,repondre,superUser , arg} = commandeOptions ;
        
-       if(!superUser){repondre('only mods can use this commande');return}; 
+       if(!superUser){repondre('only Cobu-tech can use this commande dude');return}; 
       
             const Heroku = require("heroku-client");
 
@@ -48,7 +48,7 @@ zokou(
 			let baseURI = "/apps/" + s.HEROKU_APP_NAME;
 
             let h = await heroku.get(baseURI+'/config-vars')
-let str = '*TKM-bot all vars*\n\n'
+let str = '*DEATH-STROKE-MD all vars*\n\n'
 for (vr in h) {
 str+= '☉ *'+vr+'* '+'= '+h[vr]+'\n'
 }
@@ -68,7 +68,7 @@ str+= '☉ *'+vr+'* '+'= '+h[vr]+'\n'
     
            const {ms,repondre,superUser , arg} = commandeOptions ;
            
-           if(!superUser){repondre('Only Mods can use this command');return}; 
+           if(!superUser){repondre('Only Cobu-tech can use this command');return}; 
            if(!arg[0]) {repondre('insert the variable name in capital letter'); return} ;
       
            try {
